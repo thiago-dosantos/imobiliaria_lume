@@ -1,17 +1,31 @@
-# imobiliaria_lume
+# App Imobiliaria Lume
 
-A new Flutter project.
+Projeto criado com intuíto de testes. Onde é possível realizar a listagem de imóveis cadastros, realizar o cadastro de imóveis, e visualizar os detalhes após cadastro.
 
-## Getting Started
+## Stack
 
-This project is a starting point for a Flutter application.
+Flutter, sqflite, flutter_slidable, dropdown_button2.
 
-A few resources to get you started if this is your first Flutter project:
+## Estrutura
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+```
+lib/
+├── main.dart
+├── models/imovel.dart
+├── database/
+    ├── db_helper.dart
+    └── imove_dao.dart
+└── screens/
+    ├── home_screen.dart
+    ├── detalhes_screen.dart
+    └── cadastro_screen.dart
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Créditos
+
+Logo gerada com IA.
+Inspirações em app's de imobiliárias encontrados na internet.
+
+[Link do APK para Teste](https://drive.google.com/file/d/1lpzzvKN8gTNNyVHWypeMWiTUcMaAcxYi/view?usp=drive_link)
+
+Feito por Thiago.
