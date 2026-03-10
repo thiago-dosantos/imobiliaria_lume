@@ -26,6 +26,6 @@ lib/
 Logo gerada com IA.
 Inspirações em app's de imobiliárias encontrados na internet.
 
-[Link do APK para Teste](https://drive.google.com/file/d/1lpzzvKN8gTNNyVHWypeMWiTUcMaAcxYi/view?usp=drive_link)
+[Link do APK para Teste](https://drive.google.com/file/d/1NUhr2nXiKOFbaq9gie6ibT4BaTb51EyR/view?usp=drive_link)
 
 Feito por Thiago.
