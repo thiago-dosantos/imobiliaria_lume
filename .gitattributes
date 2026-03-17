@@ -1,2 +1,21 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# --- REGRAS PARA LIMPAR O GRÁFICO DE LINGUAGENS ---
+
+# Ocultar arquivos de configuração do Windows (causadores do C#)
+windows/* linguist-vendored
+*.cs linguist-vendored
+*.csproj linguist-vendored
+*.sln linguist-vendored
+
+# Ocultar arquivos de build e ferramentas do Dart/Flutter
+build/* linguist-vendored
+.dart_tool/* linguist-vendored
+.packages linguist-vendored
+.pub-cache/* linguist-vendored
+.pub/* linguist-vendored
+
+# Ocultar arquivos nativos que podem poluir (opcional)
+ios/.symlinks/* linguist-vendored
+android/.gradle/* linguist-vendored
